@@ -1,0 +1,61 @@
+.welcome {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    font-size: 58rem;
+    font-weight: 700;
+    line-height: 84rem;
+    letter-spacing: 1.16rem;
+
+    background: linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 39rem;
+  }
+
+  &__description {
+    color: #e5e7eb;
+    text-shadow: 0px 4rem 4rem rgba(0, 0, 0, 0.07);
+    opacity: 0.8;
+    font-size: 15rem;
+    font-weight: 500;
+    line-height: 30rem;
+    margin-bottom: 21rem;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    gap: 29rem;
+  }
+
+  &__btn {
+    display: inline-block;
+    color: #f9fafb;
+    font-size: 16rem;
+    font-weight: 500;
+    border-radius: 6rem;
+    background: $gradient-btn;
+    padding: 20rem 40rem;
+  }
+
+  &__btn-video {
+    color: #f9fafb;
+    font-size: 16rem;
+    font-weight: 500;
+  }
+
+  &__watch {
+     display: inline-flex;
+     align-items: center;
+     gap: 20rem;
+  }
+
+  &__item {
+       padding: 0rem 27rem 66rem 27rem;
+       flex-shrink: 0;
+  }
+}

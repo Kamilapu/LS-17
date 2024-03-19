@@ -1,0 +1,41 @@
+.header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+     padding-top: 40rem;
+     
+
+  &__logo {
+     display: flex;
+     align-items: center;
+     gap: 8rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 20rem;
+    font-weight: 500;
+  }
+
+  &__nav-group {
+     display: flex;
+     align-items: center;
+     gap: 60rem;
+     
+  }
+
+  &__nav {
+    color: #f9fafb;
+    font-size: 14rem;
+    font-weight: 500;
+  }
+
+  &__btn {
+    display: inline-block;
+    border-radius: 5rem;
+    background: $gradient-btn;
+    padding: 12rem 28rem;
+    color: #f9fafb;
+    text-align: center;
+    font-size: 14rem;
+    font-weight: 500;
+  }
+}
