@@ -1,0 +1,77 @@
+.subscribe {
+  border-radius: 34rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.01) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  box-shadow: 0rem 22rem 18rem 0rem rgba(0, 0, 0, 0.05);
+  padding: 50rem 155rem 38rem 155rem;
+  margin-bottom: 98rem;
+
+  &__title {
+    text-align: center;
+    font-size: 42rem;
+    font-weight: 700;
+    padding-bottom: 13rem;
+  }
+
+  &__description {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 30rem;
+    opacity: 0.8;
+    padding-bottom: 29rem;
+  }
+}
+
+.subscribe-form {
+  display: flex;
+  padding: 10rem 10rem 10rem 44rem;
+  border-radius: 70rem;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+
+  &__input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding-right: 10rem;
+
+    &::placeholder {
+      color: #fff;
+      font-family: "Rubik", sans-serif;
+      font-size: 18rem;
+      font-weight: 400;
+      line-height: 30rem;
+      opacity: 0.7;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 7rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 30rem;
+
+    border-radius: 70rem;
+    opacity: 0.9;
+    background: $gradient-btn;
+    padding: 15rem 35rem;
+  }
+}
